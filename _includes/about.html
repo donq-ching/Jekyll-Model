@@ -1,0 +1,73 @@
+<div class="col-xs-12 col-md-12 one">
+	{% include navigation.html %}
+	<div class="about">
+		<div class="touxiang">
+			<img src="{{ site.favicon }}" />
+		</div>
+		<div class="about1">
+			<p>{{ site.description }}</p>
+		</div>
+		<ul class="about2">
+			{% if site.contact.weixin[1] %}
+			<li>
+				<a href="{{site.contact.weixin[0]}}">
+					<img src="{{ size.url }}/assets/svg/weixin.svg"/> 
+				</a>
+			</li>
+			{% endif %} {% if site.contact.QQ[1] %}
+			<li>
+				<a href="{{site.contact.QQ[0] | prepend :" http://wpa.qq.com/msgrd?v=3&uin=" | append :" &menu=yes " }}">
+					<img src="{{ size.url }}/assets/svg/QQ.svg"/> 
+				</a>
+			</li>
+			{% endif %} {% if site.contact.weibo[1] %}
+			<li>
+				<a href="{{site.contact.weibo[0]}}">
+					<img src="{{ size.url }}/assets/svg/weibo.svg"/> 
+				</a>
+			</li>
+			{% endif %} {% if site.contact.github[1] %}
+			<li>
+				<a href="{{site.contact.github[0]}}">
+					<img src="{{ size.url }}/assets/svg/github.svg"/> 
+				</a>
+			</li>
+			{% endif %} {% if site.contact.facebook[1] %}
+			<li>
+				<a href="{{site.contact.facebook[0]}}">
+					<img src="{{ size.url }}/assets/svg/facebook.svg"/> 
+				</a>
+			</li>
+			{% endif %} {% if site.contact.baiduCloud[1] %}
+			<li>
+				<a href="{{site.contact.baiduCloud[0]}}">
+					<img src="{{ size.url }}/assets/svg/baiduCloud.svg"/> 
+				</a>
+			</li>
+			{% endif %} {% if site.contact.tencentVideo[1] %}
+			<li>
+				<a href="{{site.contact.tencentVideo[0]}}">
+					<img src="{{ size.url }}/assets/svg/tencentVideo.svg"/> 
+				</a>
+			</li>
+			{% endif %} {% if site.contact.bilibili[1] %}
+			<li>
+				<a href="{{site.contact.bilibili[0]}}">
+					<img src="{{ size.url }}/assets/svg/bilibili.svg"/> 
+				</a>
+			</li>
+			{% endif %} {% if site.contact.me[1] %}
+			<li>
+				<a href="{{site.contact.me[0]}}">
+					<img src="{{ size.url }}/assets/svg/me.svg"/> 
+				</a>
+			</li>
+			{% endif %}{% if site.contact.zhihu[1] %}
+			<li>
+				<a href="{{site.contact.zhihu[0]}}">
+					<img src="{{ size.url }}/assets/svg/zhihu.svg"/> 
+				</a>
+			</li>{% endif %}
+		</ul>
+	</div>
+</div>

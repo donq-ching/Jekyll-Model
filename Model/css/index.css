@@ -1,0 +1,137 @@
+@media (max-width: 768px) {
+	.one {
+		background: url(../img/1.jpg);
+		background-attachment: fixed;
+		height: 200px;
+	}
+	.two {
+		margin-top: 40px;
+		padding: 20px;
+		border: 1px dashed #E6E6E6;
+		background: #fbfbfb;
+	}
+	.daohang {}
+	#column {
+		position: fixed;
+		right: 20px;
+		bottom: 55px;
+	}
+	.about{
+		width: 0px;
+		height: 0px;
+		overflow: hidden;
+	}
+}
+
+/*@media (min-width: 768px) and (max-width: 992px) {
+	处理平板 于pc合体
+}*/
+
+@media (min-width: 768px) {
+	.one {
+		background: url(../img/1.jpg);
+		background-attachment: fixed;
+		height: 100vh;
+	}
+	.two {
+		margin-top: 30px;
+		padding: 20px;
+		border: 1px dashed #E6E6E6;
+		background: #fbfbfb;
+	}
+	.daohang {
+		background-color: rgba(0, 0, 0, 0);
+		box-shadow: none;
+		border: none;
+	}
+	#column {
+		position: fixed;
+		right: 30px;
+		bottom: 20px;
+	}
+	.about {
+		width: 500px;
+		margin: 450px auto;
+	}
+	.touxiang {
+		margin: auto;
+		width: 110px;
+		height: 110px;
+		border-radius: 50%;
+		background: orange;
+		margin-bottom: 35px;
+		border: 3px solid rgba(0, 0, 0, 0.5);
+		overflow: hidden;
+		transform: rotate(0deg) scale(1);
+		transition: transform 1.5s;
+	}
+	.touxiang img {
+		width: 100%;
+	}
+	.touxiang:hover {
+		transform: rotate(360deg) scale(1);
+	}
+	.about1 {
+		background: rgba(0, 0, 0, 0.5);
+		font-family: miranafont, "Hiragino Sans GB", STXihei, "Microsoft YaHei", SimSun, sans-serif;
+		width: 100%;
+		height: 70px;
+		border-radius: 50px;
+		padding-left: 30px;
+		line-height: 70px;
+	}
+	.about1 p {
+		font-size: 17px;
+		color: #EAEADF;
+	}
+	.about2{
+		list-style: none;
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		height: 40px;
+	}
+	.about2 li{
+		width: 40px;
+		float: left;
+		border-radius: 50%;
+		overflow: hidden;
+		background: rgba(0, 0, 0, 0.5);
+		padding-top: 4px;
+		padding-left: 4px;
+		margin-right: 6px;
+	}
+}
+
+body {
+	font-size: 15px;
+	color: rgba(0, 0, 0, .66);
+	margin: 0;
+	padding: 0;
+}
+
+.three {
+	margin-top: 40px;
+}
+
+.wenzhan {
+	width: 100%;
+	border-top: 1px dashed #E6E6E6;
+}
+
+.wenzhan blockquote {
+	margin-top: 20px;
+}
+
+.wenzhan blockquote p {
+	font-size: 17px;
+}
+
+.wenzhan blockquote p a {
+	color: #000000;
+}
+
+.wenzhan blockquote p a:hover {
+	color: #3c763d;
+}

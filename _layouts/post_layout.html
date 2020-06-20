@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<html lang="zh-CN">
+	{% include head.html %}
+
+	<body>
+		<div class="container-fluid ">
+			<div class="row">
+				{% include navigation.html %}
+				<div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3 four">
+					<p class="title">{{ page.title }}</p>
+					<p class="time"><small>发布于  {{ page.date | slice: 0, 10 }}  {{ page.location}}</small></p>
+					{{ content }}
+					<div class="social-share share">分享至：</div>
+					{% include comment.html %}
+					
+				</div>
+				{% include backToTheTop.html %}
+			</div>
+		</div>
+	</body>
+	{% include footer.html %}
+
+</html>

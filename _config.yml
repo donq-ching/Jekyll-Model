@@ -1,0 +1,50 @@
+# Site settings
+name: Kengs-Seven
+description: kengs-seven‘s blog
+email: 2066820263@qq.com
+favicon: /assets/img/avatar.JPG
+logo: /assets/img/logo.JPG
+baseurl:
+url: https://kengs-Seven.github.io
+contact: #联系
+  weixin: 
+   - /assets/img/weixin.JPG
+   - true
+  QQ: 
+   - 2066820263
+   - true
+  weibo: 
+   - https://weibo.com/u/6384329542
+   - true
+  github: 
+   - https://github.com/Kengs-Seven
+   - true
+  facebook: 
+   - 
+   - false
+  baiduCloud: 
+   - 
+   - false
+  tencentVideo: 
+   - 
+   - false
+  bilibili: 
+   - https://space.bilibili.com/327003451
+   - true
+  me: 
+   - 
+   - false
+  zhihu:
+   - https://www.zhihu.com/people/cong-qian-64-3/activities
+   - true
+comment:
+  laibili:
+    enable: false
+  gitalk:
+    enable: false
+    owner: Kengs-Seven
+    repo: Kengs-Seven.github.io
+    client_id: c84855b07c1dd3060f89
+    client_secret: 228bbaadbb34c07ff209d61b993bf2cb1193666d
+# Build settings
+markdown: kramdown
